@@ -1,2 +1,2 @@
-# Parkinson'''s-Disease-Analysis
+# Parkinsons-Disease-Analysis
 Parkinson’s Disease Early Detection and Progression Analysis with Machine Learning
