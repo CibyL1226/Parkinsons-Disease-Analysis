@@ -31,6 +31,6 @@ image: ![](Images/supervised_2.png)
 image: ![](Images/supervised_3.png)
 
 ## Evaluation
-image: ![](Images/pca.png)
-image: ![](Images/pca.png)
+image: ![](Images/evaluation_1.png)
+image: ![](Images/evaluation_2.png)
 
