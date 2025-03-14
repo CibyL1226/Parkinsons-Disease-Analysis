@@ -25,10 +25,10 @@ image: ![](Images/gradient_descent.png)
 image: ![](Images/dendrogram.png)
 
 ## Supervised Learning Results
-image: ![](Images/pca.png)
+image: ![](Images/supervised_1.png)
 
-image: ![](Images/pca.png)
-image: ![](Images/pca.png)
+image: ![](Images/supervised_2.png)
+image: ![](Images/supervised_3.png)
 
 ## Evaluation
 image: ![](Images/pca.png)
