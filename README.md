@@ -50,6 +50,6 @@ Random Forest model performs better at choosing between the classes for lower fa
 Random Forest model is good at identifying true positives while keeping false positives low. 
 
 ## Evaluation
-image: ![](Images/evaluation_1.png)
-image: ![](Images/evaluation_2.png)
+![](Images/evaluation_1.png)
+![](Images/evaluation_2.png)
 
