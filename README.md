@@ -22,5 +22,5 @@ image: ![](path/to/smallorb.png)
 
 image: ![](path/to/smallorb.png)
 
-## Supervised Learnign Results
+## Supervised Learning Results
 
