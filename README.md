@@ -13,4 +13,14 @@ We got our training data from [PPMI website](http://ppmi-info.org), which includ
 2. Data exploration: PCA, K-Means Clustering
 3. Feature Engineering: Importance Score
 4. Unsupervised Learning: SGDC(Stochastic Gradient Descendent Classifier), Agglomerative Hierarchical Clustering
-5. Supervised Learning: Logistic Regression, Random Forest
+5. Supervised Learning: Logistic Regression, Random Forest, Neural Networks
+
+## Unsupervised Learning Results
+image: ![](path/to/smallorb.png)
+
+image: ![](path/to/smallorb.png)
+
+image: ![](path/to/smallorb.png)
+
+## Supervised Learnign Results
+
