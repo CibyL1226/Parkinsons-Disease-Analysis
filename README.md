@@ -15,9 +15,9 @@ We got our training data from [PPMI website](http://ppmi-info.org), which includ
 
 ## Process
 1. Data cleaning and transformation
-2. Data exploration: PCA, K-Means Clustering
+2. Data exploration: PCA
 3. Feature Engineering: Importance Score
-4. Unsupervised Learning: SGDC(Stochastic Gradient Descendent Classifier), Agglomerative Hierarchical Clustering
+4. Unsupervised Learning: K-Means Clustering, SGDC (Stochastic Gradient Descendent Classifier), Agglomerative Hierarchical Clustering
 5. Supervised Learning: Logistic Regression, Random Forest, Neural Networks
 
 ## Unsupervised Learning Results
@@ -27,12 +27,14 @@ image: ![](Images/pca.png)
 The plot below on the left shows the K-Mean Clustering result with 4 components and cluster size set to 3. Inner-cluster distances were small. No seperation between clusters were seen. The plot on the right is the UMAP result with 2 components. 
 image: ![](Images/umap.png)
 
-The next approach is SGDC (Stochastic Gradient Descendent Classifier) with learning rate set to “optimal” with log loss function, due to the high dimensionality of training data. Sigmoid function was added to the last layer due to the binary nature of the target values (Positive vs Negative for Parkinson's). A large amount of lower surface area on the lost/cost function curve. The path traced by the classifier converges to the local
-  
-minimum without any oscillation which means the learning rate is optimal in this case.
+The next approach is SGDC (Stochastic Gradient Descendent Classifier) with learning rate set to “optimal” with log loss function, due to the high dimensionality of training data. Sigmoid function was added to the last layer due to the binary nature of the target values (Positive vs Negative for Parkinson's). A large amount of lower surface area on the lost/cost function curve. The path traced by the classifier converges to the local minimum without any oscillation which means the learning rate is optimal in this case.
 image: ![](Images/gradient_descent.png)
 
+The plot below shows the result of the third approach with Agglomerative Hierarchical Clustering set to 3 clusters. The dendrogram shows a large separation after the first merge of clusters, then the difference between the clusters decreases as the clusters reach the stopping criteria. 
 image: ![](Images/dendrogram.png)
+
+### Unsupervised Learning Conclusion
+We could assume the SDGC model is the most suitable for us to find important features that will help in supervised learning. We found the model performs well with Rigidity vs Tremor score values. 
 
 ## Supervised Learning Results
 image: ![](Images/supervised_1.png)
