@@ -2,6 +2,11 @@
 
 Our team utilized data from PPMI (Parkinson's Progression Markers Initiative) with machine learning to find ways to improve early detection of Parkinson's Disease. The goal is to determine the key features in Parkinson's Disease Development.
 
+## Repository Appendix
+- **Notebooks** folder contains all the notebooks for data processing/cleaning, unsupervised learning, and supervised learning
+- **Datasets** folder contains original datasets we obtained from PPMI website, processed dataset, cleaned datasets, and training set
+- **Images** folder contains all the images we see in the README file
+
 ## Introduction
 Parkinson's disease is estimated to affect over 14.2 million people by 2040 due to increasing longevity and declining birth rate. The disease progresses slowly, but early detection is critical in mitigatign its symptoms and improving the quality of life. 
 
