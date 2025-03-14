@@ -16,11 +16,13 @@ We got our training data from [PPMI website](http://ppmi-info.org), which includ
 5. Supervised Learning: Logistic Regression, Random Forest, Neural Networks
 
 ## Unsupervised Learning Results
-image: ![](path/to/smallorb.png)
+image: ![](Images/pca.png)
 
-image: ![](path/to/smallorb.png)
+image: ![](Images/umap.png)
 
-image: ![](path/to/smallorb.png)
+image: ![](Images/gradient_descent.png)
+
+image: ![](Images/dendrogram.png)
 
 ## Supervised Learning Results
 
