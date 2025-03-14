@@ -28,7 +28,7 @@ The plot below on the left shows the K-Mean Clustering result with 4 components 
 image: ![](Images/umap.png)
 
 The next approach is SGDC (Stochastic Gradient Descendent Classifier) with learning rate set to “optimal” with log loss function, due to the high dimensionality of training data. Sigmoid function was added to the last layer due to the binary nature of the target values (Positive vs Negative for Parkinson's). A large amount of lower surface area on the lost/cost function curve. The path traced by the classifier converges to the local minimum without any oscillation which means the learning rate is optimal in this case.
-image: ![](Images/gradient_descent.png)
+image: ![](Images/gradient_descent.png=250x250)
 
 The plot below shows the result of the third approach with Agglomerative Hierarchical Clustering set to 3 clusters. The dendrogram shows a large separation after the first merge of clusters, then the difference between the clusters decreases as the clusters reach the stopping criteria. 
 image: ![](Images/dendrogram.png)
