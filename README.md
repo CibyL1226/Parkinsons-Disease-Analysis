@@ -16,10 +16,15 @@ We got our training data from [PPMI website](http://ppmi-info.org), which includ
 5. Supervised Learning: Logistic Regression, Random Forest, Neural Networks
 
 ## Unsupervised Learning Results
+Our first attempt is dimensionality reduction with PCA. The bar plot below shows the variance changes iterate through each principal component. We selected the first 4 compoenent to pass through K-Means clustering model because they contain 95% of the variance in the data.
 image: ![](Images/pca.png)
 
+The plot below on the left shows the K-Mean Clustering result with 4 components and cluster size set to 3. Inner-cluster distances were small. No seperation between clusters were seen. The plot on the right is the UMAP result with 2 components. 
 image: ![](Images/umap.png)
 
+The next approach is SGDC (Stochastic Gradient Descendent Classifier) with learning rate set to “optimal” with log loss function, due to the high dimensionality of training data. Sigmoid function was added to the last layer due to the binary nature of the target values (Positive vs Negative for Parkinson's). A large amount of lower surface area on the lost/cost function curve. The path traced by the classifier converges to the local
+  
+minimum without any oscillation which means the learning rate is optimal in this case.
 image: ![](Images/gradient_descent.png)
 
 image: ![](Images/dendrogram.png)
